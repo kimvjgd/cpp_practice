@@ -1,0 +1,5 @@
+{
+  "code-runner.executorMap": {
+    "cpp": "cd $dir && g++ $fileName -o output/$fileNameWithoutExt && output/$fileNameWithoutExt",
+  },
+}
