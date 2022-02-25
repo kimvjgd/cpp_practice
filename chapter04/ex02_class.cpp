@@ -2,7 +2,7 @@
 #include <string>
 using namespace std;
 
-#include "Circle.cpp"
+#include "Circle.h"
 
 int main(int argc, char const *argv[])
 {
