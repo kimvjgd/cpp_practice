@@ -4,11 +4,9 @@ using namespace std;
 
 int main()
 {
-  int intNum = 0;
-  long longNum = 0;
-  int *intPointer = &intNum;
+  float num0 = 0.1f;
+  float num1 = 0.02f * 5.0f;
 
-  cout << sizeof(intNum) << endl;
-  cout << sizeof(longNum) << endl;
-  cout << sizeof(intPointer) << endl;
+  if (num0 == num1)
+    cout << "Equal 1" << endl;
 }
